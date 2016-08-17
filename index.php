@@ -9,7 +9,7 @@ $config = include('./config.php');
 
 $curl = new Curl();
 $simple_html = new simple_html_dom();
-$redis = new Redis();
+$redis = new Rediss();
 $sqli = new Mysqlis();
 $mongo = new Mongod();
 //hezufang
